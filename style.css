@@ -1,6 +1,6 @@
  body {
      margin: 0;
-     background: #ffffff;
+     background: #783be9de;
      font-family: 'Courier New', monospace;
      padding: 40px 60px;
 
@@ -36,3 +36,54 @@
      color: #ffffff;
      margin: 0;
  }
+
+ .cards {
+     display: flex;
+     gap: 20px;
+     align-items: flex-start;
+     justify-content: center;
+ }
+
+ .dev-levels {
+     flex: 1 1 150px;
+     background: #a172df8a;
+     border-radius: 12px;
+     padding: 20px;
+     color: #fff;
+     text-align: center;
+ }
+
+ .dev-levels img {
+     width: 250px;
+     border-radius: 8px;
+ }
+
+ button {
+     color: #000000;
+     border-radius: 20px;
+     font-size: 20px;
+     background: #E9F87C;
+     border: none;
+     margin-left: 720px;
+     cursor: pointer;
+ }
+
+ .sobre-devclub {
+
+  color: #000000b4;
+  background: #2020209c;
+  padding: 24px;
+  border-radius: 12px;
+}
+.nav-container ul{
+
+list-style: none;
+display: flex;
+justify-content: flex-start;
+flex-wrap:nowrap;
+padding: 10px;
+gap: 10px;
+
+
+
+}
